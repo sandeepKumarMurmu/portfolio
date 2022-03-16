@@ -478,7 +478,7 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .work__code {
-    border-radius: 16px;
+  border-radius: 16px;
   display: block;
   height: 4rem;
   margin-left: var(--gutter-normal);
@@ -512,9 +512,11 @@ body:not(.user-is-tabbing) a:focus {
 
 .client__logos {
   /* align-items: center; */
+  /* border: 1px solid green; */
   padding: 4%;
   padding-bottom: 0%;
   display: flex;
+
   justify-content: space-around;
   filter: invert(4%) grayscale(4%) opacity(0.8);
 
@@ -538,6 +540,7 @@ body:not(.user-is-tabbing) a:focus {
   max-width: 18rem;
 } */
 .client__logo {
+  /* border: 1px solid white; */
   height: 6.5rem;
   max-width: 18rem;
 }
@@ -632,4 +635,11 @@ body:not(.user-is-tabbing) a:focus {
   .footer {
     padding: var(--gutter-medium) 0;
   }
+}
+/* MY UPDATES */
+
+.nameContaine {
+  margin-top: -5%;
+  width: 100%;
+  text-align: center;
 }
