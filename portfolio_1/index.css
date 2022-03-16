@@ -490,6 +490,7 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .work__image-box {
+  /* filter: invert(0%) grayscale(100%) opacity(1); */
   margin-bottom: var(--gutter-normal);
 }
 
@@ -642,4 +643,9 @@ body:not(.user-is-tabbing) a:focus {
   margin-top: -5%;
   width: 100%;
   text-align: center;
+}
+
+.work__image-box :hover {
+  /* filter: invert(0%) grayscale(20%) opacity(0.8); */
+  filter: invert(4%) grayscale(4%) opacity(0.8);
 }
