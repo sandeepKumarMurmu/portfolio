@@ -1,301 +1,410 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" type="image/png" href="./photos/profilePic.jpggi" />
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="./photos/profilePic.jpggi"
+    />
 
     <!-- Put your site title here -->
-    <title>
-        Sandeep Kumar Murmu | A Web Developer
-    </title>
+    <title>Sandeep Kumar Murmu | A Web Developer</title>
 
-    <meta name="description" content="Add small description of yourslef.">
+    <meta name="description" content="Add small description of yourslef." />
     <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
-    <meta name="keywords" content="Put your name, skills and some coding keywords" />
+    <meta
+      name="keywords"
+      content="Put your name, skills and some coding keywords"
+    />
     <link rel="stylesheet" href="index.css" />
-</head>
+  </head>
 
-<body>
-
+  <body>
     <!-- ***** Header ***** -->
 
     <header class="header" role="banner" id="top">
-        <div class="row">
-            <nav class="nav" role="navigation">
-                <ul class="nav__items">
-                    <li class="nav__item"><a href="#work" class="nav__link">Project</a></li>
-                    <li class="nav__item"><a href="#clients" class="nav__link">Skills</a></li>
-                    <li class="nav__item">
-                        <a href="#about" class="nav__link">About</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#contact" class="nav__link">Contact</a>
-                    </li>
-                </ul>
-            </nav>
+      <div class="row">
+        <nav class="nav" role="navigation">
+          <ul class="nav__items">
+            <li class="nav__item">
+              <a href="#work" class="nav__link">Project</a>
+            </li>
+            <li class="nav__item">
+              <a href="#clients" class="nav__link">Skills</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="header__text-box row">
+        <div class="header__text">
+          <h1 class="heading-primary">
+            <!-- Replace the following name with your name -->
+            <span>Sandeep Kumar Murmu</span>
+          </h1>
+          <!-- Put a small paragraph about yourself -->
+          <p>Full-Stack Web Developer | Jharkhand | India</p>
+          <a href="#contact" class="btn btn--pink">Get in touch</a>
         </div>
-        <div class="header__text-box row">
-            <div class="header__text">
-                <h1 class="heading-primary">
-                    <!-- Replace the following name with your name -->
-                    <span>Sandeep Kumar Murmu</span>
-                </h1>
-                <!-- Put a small paragraph about yourself -->
-                <p>Full-Stack Web Developer | Jharkhand | India</p>
-                <a href="#contact" class="btn btn--pink">Get in touch</a>
-            </div>
-        </div>
+      </div>
     </header>
 
     <main role="main">
+      <!-- ***** About ***** -->
 
-        <!-- ***** About ***** -->
-
-        <section class="about" id="about">
-            <div class="row">
-                <h2>About Me</h2>
-                <div class="about__content">
-                    <div class="about__text">
-                        <!-- Replace the below paragraph with info about yourself -->
-                        <p>
-                           
-                        </p>
-                        <!-- Provide a link to your resume -->
-                        <a href="https://drive.google.com/file/d/10p4bkb5vzRIvN2GNk_Q8DKrnvg7W7BL4/view?usp=sharing"
-                            target="blak" class="btn btn--pink">My Resume</a>
-                    </div>
-
-                    <div class="about__photo-container">
-                        <!-- Add a nice photo of yourself -->
-                        <img class="about__photo" style="border-radius: 400px;border: 3.5px solid rgb(219, 193, 144);margin: auto;width: 300px;" src="./photos/profilePic.jpg" alt="" />
-                    </div>
-                </div>
+      <section class="about" id="about">
+        <div class="row">
+          <h2>About Me</h2>
+          <div class="about__content">
+            <div class="about__text">
+              <!-- Replace the below paragraph with info about yourself -->
+              <p>
+                I am sandeep Kumar Murmu an enthusiastic full-stack
+                web-developer. Always feel happy to face challenges and spend my
+                lots of time on coding and designing. As soon as I completed my
+                graduation (electrical and electronics) started following my
+                dream to be a developer
+              </p>
+              <!-- Provide a link to your resume -->
+              <a
+                href="https://drive.google.com/file/d/10p4bkb5vzRIvN2GNk_Q8DKrnvg7W7BL4/view?usp=sharing"
+                target="blak"
+                class="btn btn--pink"
+                style="margin: auto"
+                >My Resume</a
+              >
             </div>
-        </section>
 
-        <!-- ***** Work ***** -->
-
-        <section class="work" id="work">
-            <div class="row">
-                <h2>My Work</h2>
-                <div class="work__boxes">
-
-                    <!-- Each div with the work__box class is a project. -->
-
-                    <div class="work__box">
-                        <div class="work__text">
-                            <h3>bewakoof.com-website-clone</h3>
-                            <p>
-                                A free Open Source Portfolio for anyone to use for free.
-                            </p>
-                            <ul class="work__list">
-                                <li>HTML</li>
-                                <li>CSS</li>
-                                <li>JavaScript</li>
-                                <li>Local Storage</li>
-                            </ul>
-
-                            <div class="work__links">
-                                <a href="https://bewakoof-tawny.vercel.app/" target="_blank" class="link__text">
-                                    Visit Site <span>&rarr;</span>
-                                </a>
-                                <a href="https://github.com/reeteshin/bewakoof" title="View Source Code"
-                                    target="_blank">
-                                    <img src="./photos/git_logo.svg" class="work__code" alt="GitHub">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="work__image-box">
-                            <img src="./photos/hero_bewkof.png" class="work__image" alt="Project 1" />
-                        </div>
-                    </div>
-                    <div class="work__box">
-                        <div class="work__text">
-                            <h3>Todo app</h3>
-                            <p>
-Todo app is good in keeping track of users task and on the top of it user friendly, also responsive to any device
-                            </p>
-                            <ul class="work__list">
-                                <li>HTML</li>
-                                <li>CSS</li>
-                                <li>JavaScript</li>
-                                <li>Local Storage</li>
-                            </ul>
-
-                            <div class="work__links">
-                                <a href="https://todo-omega-two.vercel.app/" target="_blank" class="link__text">
-                                    Visit Site <span>&rarr;</span>
-                                </a>
-                                <a href="https://github.com/sandeepKumarMurmu/todo" title="View Source Code"
-                                    target="_blank">
-                                    <img src="./photos/git_logo.svg" class="work__code" alt="GitHub">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="work__image-box">
-                            <img src="./photos/image_1.png" class="work__image" alt="Project 1" />
-                        </div>
-                    </div>
-                    <div class="work__box">
-                        <div class="work__text">
-                            <h3>mini food aap</h3>
-                            <p>
-                                open source food order aap, with nice user experice and also responsive to all devices
-                            </p>
-                            <ul class="work__list">
-                                <li>HTML</li>
-                                <li>CSS</li>
-                                <li>JavaScript</li>
-                                <li>Local Storage</li>
-                            </ul>
-
-                            <div class="work__links">
-                                <a href="https://myfoodapp2.netlify.app/" target="_blank" class="link__text">
-                                    Visit Site <span>&rarr;</span>
-                                </a>
-                                <a href="https://github.com/Reshma-fw14/mini_foodApp" title="View Source Code"
-                                    target="_blank">
-                                    <img src="./photos/git_logo.svg" class="work__code" alt="GitHub">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="work__image-box">
-                            <img src="./photos/food.png" class="work__image" alt="Project 1" />
-                        </div>
-                    </div>
-                    
-
-                    
-                </div>
+            <div class="about__photo-container">
+              <!-- Add a nice photo of yourself -->
+              <img
+                class="about__photo"
+                style="
+                  border-radius: 400px;
+                  border: 3.5px solid rgb(219, 193, 144);
+                  margin: auto;
+                  width: 300px;
+                "
+                src="./photos/profilePic.jpg"
+                alt=""
+              />
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
 
-        <!-- ***** Clients ***** -->
+      <!-- ***** Work ***** -->
 
-        <section class="client" id="clients">
-            <div class="row">
-                <h2>Skills</h2>
+      <section class="work" id="work">
+        <div class="row">
+          <h2>My Work</h2>
+          <div class="work__boxes">
+            <!-- Each div with the work__box class is a project. -->
 
-               
-              
-               
-                <div class="client__logos">
-                    <img src="./photos/js.png" class="client__logo" alt="Company 1" />
-                    <img src="./photos/html_1.png" class="client__logo" alt="Company 1" />
-                    <img src="./photos/CSS.png" class="client__logo" alt="Company 1" />
-                </div>
-                <div class="client__logos">
-                   <div class="nameContaine">
-                       <p>JavaScript</p>
-                   </div>
-                   <div class="nameContaine" style="margin-left:2% ;">
-                       <p>HTML</p>
-                   </div>
-                   <div class="nameContaine">
-                       <p>CSS</p>
-                   </div>
-                </div>
-                <div class="client__logos">
-                    <img src="./photos/c++.png" class="client__logo" alt="Company 1" />
-                    <img src="./photos/git.png" class="client__logo" alt="Company 1" />
-                    <img src="./photos/mongo.png" class="client__logo" alt="Company 1" />
-                </div>
-                <div class="client__logos">
-                    <div class="nameContaine">
-                        <p>C++</p>
-                    </div>
-                    <div class="nameContaine">
-                        <p>Git</p>
-                    </div>
-                    <div class="nameContaine">
-                        <p>Mongo DB</p>
-                    </div>
-                </div>
-                <div class="client__logos">
-                    <img src="./photos/React-icon.svg.png" class="client__logo"
-                        alt="Company 1" />
-                    <img src="./photos/nodejs.png" class="client__logo" alt="Company 1" />
+            <div class="work__box">
+              <div class="work__text">
+                <h3>bewakoof.com-website-clone</h3>
+                <p>
+                  A free Open Source Portfolio for anyone to use for free. First
+                  ever collabrative project done by me, involvement of four
+                  curious was nice experince to me.
+                </p>
+                <ul class="work__list">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                  <li>Local Storage</li>
+                </ul>
 
-                    <img src="./photos/postman.png" class="client__logo" alt="Company 1" />
+                <div class="work__links">
+                  <a
+                    href="https://bewakoof-tawny.vercel.app/"
+                    target="_blank"
+                    class="link__text"
+                  >
+                    Visit Site <span>&rarr;</span>
+                  </a>
+                  <a
+                    href="https://github.com/reeteshin/bewakoof"
+                    title="View Source Code"
+                    target="_blank"
+                  >
+                    <img
+                      src="./photos/git_logo.svg"
+                      class="work__code"
+                      alt="GitHub"
+                    />
+                  </a>
                 </div>
-                <div class="client__logos">
-                    <div class="nameContaine">
-                        <p>React</p>
-                    </div>
-                    <div class="nameContaine">
-                        <p>Nodejs</p>
-                    </div>
-                    <div class="nameContaine">
-                        <p>Postman</p>
-                    </div>
-                </div>
-                
+              </div>
+              <div class="work__image-box">
+                <img
+                  src="./photos/hero_bewkof.png"
+                  class="work__image"
+                  alt="Project 1"
+                />
+              </div>
             </div>
+            <div class="work__box">
+              <div class="work__text">
+                <h3>Todo app</h3>
+                <p>
+                  Todo app is good in keeping track of users task and on the top
+                  of it user friendly, also responsive to any device. This is a
+                  solo project done by me as a first hobby project.
+                </p>
+                <ul class="work__list">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                  <li>Local Storage</li>
+                </ul>
+
+                <div class="work__links">
+                  <a
+                    href="https://todo-omega-two.vercel.app/"
+                    target="_blank"
+                    class="link__text"
+                  >
+                    Visit Site <span>&rarr;</span>
+                  </a>
+                  <a
+                    href="https://github.com/sandeepKumarMurmu/todo"
+                    title="View Source Code"
+                    target="_blank"
+                  >
+                    <img
+                      src="./photos/git_logo.svg"
+                      class="work__code"
+                      alt="GitHub"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div class="work__image-box">
+                <img
+                  src="./photos/image_1.png"
+                  class="work__image"
+                  alt="Project 1"
+                />
+              </div>
             </div>
-        </section>
+            <div class="work__box">
+              <div class="work__text">
+                <h3>mini food aap</h3>
+                <p>
+                  open source food order aap, with nice user experice and also
+                  responsive to all devices. It was a collabrative project of
+                  two developers, whenever difficulty occoured we solved it by
+                  communicating.
+                </p>
+                <ul class="work__list">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                  <li>Local Storage</li>
+                </ul>
 
+                <div class="work__links">
+                  <a
+                    href="https://myfoodapp2.netlify.app/"
+                    target="_blank"
+                    class="link__text"
+                  >
+                    Visit Site <span>&rarr;</span>
+                  </a>
+                  <a
+                    href="https://github.com/Reshma-fw14/mini_foodApp"
+                    title="View Source Code"
+                    target="_blank"
+                  >
+                    <img
+                      src="./photos/git_logo.svg"
+                      class="work__code"
+                      alt="GitHub"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div class="work__image-box">
+                <img
+                  src="./photos/food.png"
+                  class="work__image"
+                  alt="Project 1"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
+      <!-- ***** Clients ***** -->
+
+      <section class="client" id="clients">
+        <div class="row">
+          <h2>Skills</h2>
+
+          <!-- first row -->
+          <div class="client__logos">
+            <div class="changes">
+              <img src="./photos/js.svg" class="client__logo" alt="Company 1" />
+              <p>JavaScript</p>
+            </div>
+            <div class="changes">
+              <img
+                src="./photos/html.svg"
+                class="client__logo"
+                alt="Company 1"
+              />
+              <p>HTML</p>
+            </div>
+            <div class="changes">
+              <img
+                src="./photos/css.svg"
+                class="client__logo"
+                alt="Company 1"
+              />
+              <p>CSS</p>
+            </div>
+          </div>
+          <!-- second row -->
+          <div class="client__logos">
+            <div class="changes">
+              <img
+                src="./photos/c++.svg"
+                class="client__logo"
+                alt="Company 1"
+              />
+              <p>C++</p>
+            </div>
+            <div class="changes">
+              <img
+                src="./photos/git-icon.svg"
+                class="client__logo"
+                alt="Company 1"
+              />
+              <p>Git</p>
+            </div>
+            <div class="changes">
+              <img
+                src="./photos/mongo.svg"
+                class="client__logo"
+                alt="Company 1"
+              />
+
+              <p>Mongo DB</p>
+            </div>
+          </div>
+          <!-- third row -->
+          <div class="client__logos">
+            <div class="changes">
+              <img
+                src="./photos/react.svg"
+                class="client__logo"
+                alt="Company 1"
+              />
+              <p>React</p>
+            </div>
+            <div class="changes">
+              <img
+                src="./photos/node.svg"
+                class="client__logo"
+                alt="Company 1"
+              />
+              <p>Nodejs</p>
+            </div>
+            <div class="changes">
+              <img
+                src="./photos/postman.svg"
+                class="client__logo"
+                alt="Company 1"
+              />
+              <p>Postman</p>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <!-- ***** Contact ***** -->
 
     <section class="contact" id="contact">
-        <div class="row">
-            <h2>Get in Touch</h2>
-            <div class="contact__info">
-                <p>
-                  feel free to content with me for your suggestions and feedbacks via email.
-                  <br>
-                  thankyou
-                </p>
-                <!-- Replace the email with yours -->
-                <a href="mailto:sandeep.16murmu@gamil.com" class="btn">sandeep.16murmu@gmail.com</a>
-            </div>
+      <div class="row">
+        <h2>Get in Touch</h2>
+        <div class="contact__info">
+          <p>
+            feel free to content with me for your suggestions and feedbacks via
+            email.
+            <br />
+            thankyou
+          </p>
+          <!-- Replace the email with yours -->
+          <a href="mailto:sandeep.16murmu@gamil.com" class="btn"
+            >sandeep.16murmu@gmail.com</a
+          >
         </div>
+      </div>
     </section>
 
     <!-- ***** Footer ***** -->
 
     <footer role="contentinfo" class="footer">
-        <div class="row">
-            <!-- Update the links to point to your accounts -->
-            <h1>Available On</h1>
-            <ul class="footer__social-links">
-                
-                <li class="footer__social-link-item">
-                    <a href="https://github.com/sandeepKumarMurmu" title="Link to Github Profile">
-                        <img src="./photos/git_logo.svg" class="footer__social-image" alt="Github">
-                    </a>
-                </li>
-                
-                <li class="footer__social-link-item">
-                    <a href="https://www.linkedin.com/in/sandeep-kumar-murmu-0567181a9/">
-                        <img src="./photos/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image"
-                            alt="Linkedin">
-                    </a>
-                </li>
-            </ul>
+      <div class="row">
+        <!-- Update the links to point to your accounts -->
+        <h1>Available On</h1>
+        <ul class="footer__social-links">
+          <li class="footer__social-link-item">
+            <a
+              href="https://github.com/sandeepKumarMurmu"
+              title="Link to Github Profile"
+            >
+              <img
+                src="./photos/git_logo.svg"
+                class="footer__social-image"
+                alt="Github"
+              />
+            </a>
+          </li>
 
-            <!-- If you give me some credit by keeping the below paragraph, will be huge for me 😊 Thanks. -->
-            <p>
-                <!-- &copy; 2020 - Template designed & developed by <a href="https://nisar.dev" class="link">Nisar</a>.
-                 -->
-            </p>
-            <!-- <div class="footer__github-buttons">
+          <li class="footer__social-link-item">
+            <a
+              href="https://www.linkedin.com/in/sandeep-kumar-murmu-0567181a9/"
+            >
+              <img
+                src="./photos/linkedin.svg"
+                title="Link to Linkedin Profile"
+                class="footer__social-image"
+                alt="Linkedin"
+              />
+            </a>
+          </li>
+        </ul>
+
+        <!-- If you give me some credit by keeping the below paragraph, will be huge for me 😊 Thanks. -->
+        <p>
+          &copy; 2020 - Template designed & developed by
+          <a href="https://nisar.dev" class="link">Nisar</a> | modified by
+          <a href="#about">Sandeep kumar murmu</a>
+        </p>
+        <!-- <div class="footer__github-buttons">
                 <iframe
                     src="https://ghbtns.com/github-btn.html?user=nisarhassan12&repo=portfolio-template&type=watch&count=true"
                     frameborder="0" scrolling="0" width="170" height="20" title="Watch Portfolio Template on GitHub">
                 </iframe>
             </div> -->
-        </div>
+      </div>
     </footer>
 
     <a href="#top" class="back-to-top" title="Back to Top">
-        <img src="./photos/arrow-up.svg" class="back-to-top__image" />
+      <img src="./photos/arrow-up.svg" class="back-to-top__image" />
     </a>
     <script src="./index.js"></script>
-</body>
-
+  </body>
 </html>
