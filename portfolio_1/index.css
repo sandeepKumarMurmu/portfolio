@@ -238,6 +238,7 @@ body:not(.user-is-tabbing) a:focus {
   height: 100%;
   z-index: -1;
   transition: all 0.2s cubic-bezier(1, 0.68, 0.16, 0.9);
+  background: var(--pink);
 }
 
 .btn:hover::after,
@@ -405,7 +406,7 @@ body:not(.user-is-tabbing) a:focus {
 
 .header {
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)),
-    url("./images/header.jpg");
+    url("./photos/header.jpg");
   height: 100vh;
   background-size: cover;
   background-position: center;
@@ -565,6 +566,15 @@ body:not(.user-is-tabbing) a:focus {
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
+  /* border-radius: 500px; */
+  /* border: 1px solid red; */
+  border-bottom-left-radius: 400px;
+  border-top-left-radius: 400px;
+  border-bottom-right-radius: 50px;
+  border-top-right-radius: 50px;
+  background-color: rgb(43, 24, 24);
+  padding-top: 0.5%;
+  padding-right: 1%;
 }
 
 @media (max-width: 900px) {
@@ -576,6 +586,9 @@ body:not(.user-is-tabbing) a:focus {
 
 .about__photo-container {
   margin-bottom: var(--gutter-normal);
+  /* border-radius: 400px;
+   */
+  /* border: 1px solid red; */
 }
 
 @media (min-width: 901px) {
@@ -584,6 +597,7 @@ body:not(.user-is-tabbing) a:focus {
   }
 
   .about__photo-container {
+    /* border-radius: 400px; */
     flex: 1;
     margin: 0 var(--gutter-huge) 0 0;
   }
