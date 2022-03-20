@@ -406,8 +406,8 @@ body:not(.user-is-tabbing) a:focus {
 /* --------------------------------------- */
 
 .header {
-  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)),
-    url("./photos/header.jp");
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4));
+  /* url("./photos/header.jp"); */
   height: 100vh;
   background-size: cover;
   background-position: center;
@@ -514,7 +514,6 @@ body:not(.user-is-tabbing) a:focus {
 /* --------------------------------------- */
 
 .client__logos {
- 
   padding: 4%;
   padding-bottom: 0%;
   display: flex;
@@ -522,7 +521,6 @@ body:not(.user-is-tabbing) a:focus {
   justify-content: center;
   column-gap: 15%;
   margin-bottom: -4%;
-  
 }
 
 .client__logos img:hover {
@@ -687,6 +685,20 @@ body:not(.user-is-tabbing) a:focus {
   align-items: center;
   /* border: 1px solid green; */
 }
-.changes img{
+.changes img {
   border-radius: 8px;
+}
+
+#redirect,
+#check {
+  margin-top: 3%;
+  height: 26%;
+}
+
+#js {
+  max-width: 40px;
+}
+
+#js_img {
+  /* width: 130%; */
 }

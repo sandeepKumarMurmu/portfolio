@@ -3,11 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="shortcut icon"
-      type="image/png"
-      href="./photos/profilePic.jpggi"
-    />
+    <link rel="shortcut icon" type="image/png" href="./photos/profilePic.jpg" />
 
     <!-- Put your site title here -->
     <title>Sandeep Kumar Murmu | A Web Developer</title>
@@ -92,7 +88,7 @@
                   margin: auto;
                   width: 300px;
                 "
-                src="./photos/profilePic.jpg"
+                src="./photos/new_profile.jpg"
                 alt=""
               />
             </div>
@@ -112,9 +108,11 @@
               <div class="work__text">
                 <h3>bewakoof.com-website-clone</h3>
                 <p>
-                  A free Open Source Portfolio for anyone to use for free. First
-                  ever collabrative project done by me, involvement of four
-                  curious    was nice experince to me.
+                  An e-comerce website for men and women. Created by 4
+                  develeoper, it was amezing experience working in a team. As
+                  four developers were working in different areas, so
+                  little-little hurdles were incountered but because of proper
+                  guidence of team leader. A beautiful result came out.
                 </p>
                 <ul class="work__list">
                   <li>HTML</li>
@@ -200,10 +198,9 @@
               <div class="work__text">
                 <h3>mini food aap</h3>
                 <p>
-                  open source food order aap, with nice user experice and also
-                  responsive to all devices. It was a collabrative project of
-                  two developers, whenever difficulty occoured we solved it by
-                  communicating.
+                  food order aap, with nice user experice and also responsive to
+                  all devices. It was a collabrative project of two developers,
+                  whenever difficulty occoured we solved it by communicating.
                 </p>
                 <ul class="work__list">
                   <li>HTML</li>
@@ -253,8 +250,8 @@
 
           <!-- first row -->
           <div class="client__logos">
-            <div class="changes">
-              <img src="./photos/js.svg" class="client__logo" alt="Company 1" />
+            <div class="changes" id="js">
+              <img src="./photos/js.svg" id="js_img" class="client__logo" alt="Company 1" />
               <p>JavaScript</p>
             </div>
             <div class="changes">
@@ -346,9 +343,24 @@
             thankyou
           </p>
           <!-- Replace the email with yours -->
-          <a href="mailto:sandeep.16murmu@gamil.com" class="btn"
-            >sandeep.16murmu@gmail.com</a
-          >
+          <div style="display: flex; flex-direction: row; column-gap: 3%">
+            <button
+              id="redirect"
+              style="background-color: transparent"
+              class="btn"
+            >
+              <!-- <a href="mailto:sandeep.16murmu@gamil.com" class="btn" -->
+              send mail
+            </button>
+            <p>or</p>
+            <button
+              id="check"
+              class="btn"
+              style="background-color: transparent"
+            >
+              copy mail id
+            </button>
+          </div>
         </div>
       </div>
     </section>
