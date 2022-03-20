@@ -53,7 +53,7 @@ document.getElementById("check").addEventListener("click", () => {
   inputElement.select();
   document.execCommand("copy");
   inputElement.parentNode.removeChild(inputElement);
-  alert("copied");
+  alert("email id is copied");
 });
 
 document.getElementById("redirect").addEventListener("click", () => {
