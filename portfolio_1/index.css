@@ -692,10 +692,10 @@ body:not(.user-is-tabbing) a:focus {
 #redirect,
 #check {
   margin-top: 3%;
-  height: 26%;
+  height: 32%;
+  font-weight: 600;
 }
 
 #js {
   max-width: 40px;
 }
-
